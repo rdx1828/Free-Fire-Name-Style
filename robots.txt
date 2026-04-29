@@ -1,0 +1,20 @@
+# ************************************************
+# Advanced Robots.txt for Free Fire Name Style
+# Optimized for Google, Bing, and Yandex
+# ************************************************
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /assets/
+
+# Disallow private or unnecessary files
+Disallow: /README.md
+Disallow: /LICENSE
+
+# Sitemap URL
+Sitemap: https://rdx1828.github.io/Free-Fire-Name-Style/sitemap.xml
+
+# Crawl-delay for some bots to reduce server load
+User-agent: Yandex
+Crawl-delay: 2
